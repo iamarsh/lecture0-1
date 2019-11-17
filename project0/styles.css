@@ -1,8 +1,12 @@
 h1 {
     color: #b0927b;
-    text-align: left;
+    text-align: center;
     font-family: Georgia;
     font-size: 75px;
+}
+
+p {
+    text-align: center;
 }
 
 li, a {
@@ -24,6 +28,15 @@ body, html {
 
 .restaurant-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/restaurant.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.order-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/menuOrder.jpg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -75,4 +88,8 @@ a.button:hover {
 
 .checked {
     color: orange;
+}
+
+.footer-copyright{
+    font-family: Georgia;
 }
