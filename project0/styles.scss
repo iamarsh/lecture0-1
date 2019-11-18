@@ -1,0 +1,22 @@
+$divpadding : 20px 16px!important;
+$font : "Georgia";
+
+body,h1,h2,h3,h4,h5,h6,a,p {
+    font-family: $font;
+    margin: auto;
+}
+
+.grids {
+    padding: $divpadding ;
+    background-color: #f7f7f7;
+}
+
+%fontstyle {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+p{
+    @extend %fontstyle;
+}
