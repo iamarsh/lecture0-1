@@ -102,3 +102,15 @@ a.button:hover {
 .footer-copyright{
     font-family: Georgia;
 }
+
+@media (max-width: 700px) {
+  .row, .navbar {
+    flex-direction: column;
+  }
+}
+
+#firstname{
+    background-color: #b0927b;
+    margin: auto;
+
+}
