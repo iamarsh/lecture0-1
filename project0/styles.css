@@ -2,7 +2,7 @@ h1 {
     color: #b0927b;
     text-align: center;
     font-family: Georgia;
-    font-size: 75px;
+    font-weight: bold;
 }
 
 p {
@@ -67,6 +67,7 @@ body, html {
 .navbar-brand {
     font-family: Georgia;
     background-color: #a86b00;
+    padding: 6px;
 }
 
 .box {
